@@ -1,0 +1,99 @@
+/* Styles */
+body{
+    background-color: whitesmoke;
+}
+
+#tsfLogo{
+    height: 50px;
+    width: 50px;
+}
+
+#logoText{
+    padding-top: 10px;
+    color: red;
+}
+
+#userButton button{
+    padding: 0.5px;
+}
+
+#userButton{
+    margin-left: 470px; 
+}
+
+.btn-primary{
+    color: black;
+    border: solid 1px black;
+    margin: 5px;
+}
+
+#transForm{
+    margin: 20px;
+    margin-right: 600px;
+}
+
+#transForm .form-group{
+    margin-top: 30px;
+}
+
+#update{
+    margin-top: 20px;
+}
+
+#cDetails{
+    margin: 10px;
+    margin-right: 800px;
+}
+
+#cDetails input{
+    margin-bottom: 15px;
+}
+
+#form1{
+    margin : 20px;
+}
+
+#form1 #fromAcc{
+    margin-right: 700px;
+    margin-bottom: 5px;
+}
+
+#form1 #toAcc{
+    margin-right: 700px;
+    margin-bottom: 5px;
+}
+
+#fromdetails{
+    margin-top: 10px;
+    margin-right: 700px;
+}
+
+#todetails{
+    margin-top: 10px;
+    margin-right: 700px;
+}
+
+.input-group{
+    margin-top: 10px;
+}
+
+.div2{
+    margin-top: 70px;
+}
+
+#form1 label{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+#label1{
+    margin-top: 35px;
+}
+
+#amountVal{
+    margin-right: 900px;
+}
+
+#HistoryTable{
+    margin: 10px;
+}

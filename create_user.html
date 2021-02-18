@@ -1,0 +1,84 @@
+<!-- Create new User page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src = "jquery/jquery-3.5.1.js"></script>
+
+    <style>
+        #userForm{
+            margin-left: 20px;
+            margin-top: 10px;
+            margin-right: 500px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" id = "logoText" href="#"><img src="https://media-exp1.licdn.com/dms/image/C560BAQFgHU3sTF4LfQ/company-logo_200_200/0/1519895156650?e=2159024400&v=beta&t=1iqBaESC2l4UUW7JjEjq0R_HQhwRTaaqyQG1k46q4bs" alt="" id = "tsfLogo"> The TSF Bank</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="customerPage.html">View Customers</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="make_Transaction.html">Make Transactions</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="historyPage.html">Transactions History</a>
+              </li>
+
+              <li class="nav-item" id = "userButton">
+                <button type="button" class="btn btn-secondary"><a href="create_user.html" class="nav-link active">Create user</a></button>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div  id= "userForm">
+        <form>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col">
+                  <input type="text" id = "nameInput" class="form-control" placeholder="First name" aria-label="First name" required>
+                </div>
+                <div class="col">
+                  <input type="text" id = "balanceInput" class="form-control" placeholder="Balance in Rs." aria-label="Balance" required>
+                </div>
+            </div>
+            <br>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                <label class="form-check-label" for="exampleCheck1">I agree to the terms and conditions.</label>
+            </div>
+            <button type = "button" class="btn btn-success" id = "insert">Submit</button>
+            
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    <script src="./bankProject.js" text="text/javascript"></script>
+</body>
+</html>
